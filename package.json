@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "chroma-js": "^1.4.1",
+    "ora": "^3.2.0",
     "prop-types": "^15.6.2",
     "rc-slider": "^8.6.3",
     "rc-tooltip": "^3.7.3",

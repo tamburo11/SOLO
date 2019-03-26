@@ -50,8 +50,29 @@ class SoundfontProvider extends React.Component {
     }
   }
 
+
+
+
+
   loadInstrument = (instrumentName) => {
     // Re-trigger loading state
+
+    console.log('carico')
+    // let title = document.createElement('div');
+    // title.style = loader
+    // title.appendChild(document.createTextNode("The big title!"));
+    // title.style.border = '16px solid #f3f3f3'
+    // title.style.borderRadius = '50%'
+    // title.style.borderTop = '16px solid #3498db'
+    // title.style.width = '100px'
+    // title.style.height = 'spin 2s linear infinite'
+    // title.style.webkitAnimation = 'spin 2s linear infinite'
+    // title.style.animation = 'initial'
+    // title.style.color = "#F5AE20";
+    // title.style.textAlign = "center"; //this is what I'm trying to solve my problem
+    
+    // document.body.appendChild(title); 
+
     Soundfont.instrument(this.props.audioContext, instrumentName, {
       format: this.props.format,
       soundfont: this.props.soundfont,
@@ -59,6 +80,7 @@ class SoundfontProvider extends React.Component {
         return `${this.props.hostname}/${soundfont}/${name}-${format}.js`;
       },
     }).then((instrument) => {
+      console.log('fatto')
       this.setState({
         instrument,
       });
@@ -114,13 +136,13 @@ class SoundfontProvider extends React.Component {
 
   render() {
     return this.props.render
-      ? this.props.render({
-          isLoading: !this.state.instrument,
-          playNote: this.playNote,
-          stopNote: this.stopNote,
-          stopAllNotes: this.stopAllNotes,
-        })
-      : null;
+    ? this.props.render({
+      isLoading: !this.state.instrument,
+      playNote: this.playNote,
+      stopNote: this.stopNote,
+      stopAllNotes: this.stopAllNotes,
+    })
+    : null;
   }
 }
 

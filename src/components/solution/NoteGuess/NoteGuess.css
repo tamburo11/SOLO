@@ -1,14 +1,17 @@
 
 
 .mySelect {
-	margin-left: 10px;
-    margin-right: 10px;
-	width: 150px;
+/*	border-left: 100px;
+  border-right: 100px;*/
+  margin-left: 1vw;
+  margin-right: 1vw;
+/*  padding-left: 100px;
+  padding-right: 100px;*/
+	width: 9vw;
 }
 
 .natural {
 	border: solid 3px transparent;
-
   }
 	
 .false {

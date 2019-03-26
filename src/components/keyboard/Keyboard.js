@@ -64,6 +64,8 @@ const instrument_list_r= [
   class Keyboard extends React.Component {
     state = {
       numberOfNotes : 8,
+      min : MidiNumbers.fromNote('a0'),
+      max : MidiNumbers.fromNote('c8'),
       songDone:false,
       showPitch:false,
       stopAllNotes: () => console.warn('stopAllNotes not yet loaded'),
@@ -78,7 +80,7 @@ const instrument_list_r= [
         octaves: 1,
         pauseTime: 0,
         duration: 1,
-        intervals: [],
+        intervals: [{value : 5}],
         instrumentName: 'acoustic_grand_piano',
         noteRange: {
           first: MidiNumbers.fromNote('c1'),
@@ -97,7 +99,10 @@ const instrument_list_r= [
       let instrumentMax = this.firstAndLastNote()[1];
       let min = instrumentMin < this.state.config.noteRange.first ? this.state.config.noteRange.first :instrumentMin
       let max = instrumentMax > this.state.config.noteRange.last ? this.state.config.noteRange.last : instrumentMax
-      
+      this.setState({min:min,max:max})
+      //console.log( "min: ", this.state.min)
+      //console.log( "max: ", this.state.max)
+
       //let dup = {this.state.config};
       // console.log(dup)
       // dup.noteRange.first = min;
@@ -120,7 +125,7 @@ const instrument_list_r= [
       if(i< min-24||i>max-24){
         tasti[i].style.backgroundColor="rgb(216, 221, 232)";
        } else { // if is in the register 
-        tasti[i].style.backgroundColor="white";
+        tasti[i].style.backgroundColor="";
       }
 
     // if is an accidental key
@@ -130,7 +135,7 @@ const instrument_list_r= [
           tasti[i].style.backgroundColor="rgb(216, 221, 232)";
           tasti[i].style.borderColor="#555";
         } else { // if is in the register
-          tasti[i].style.backgroundColor="#555";
+          tasti[i].style.backgroundColor="";
         }
       }
 
@@ -149,7 +154,6 @@ const instrument_list_r= [
 
     let max = list.reduce((max, value) => value['range']['last'] > max ? value['range']['last'] : max, list[0]['range']['last']);
     // console.log("max : ", max);
-
     return [min, max];
   }
 
@@ -187,7 +191,9 @@ const instrument_list_r= [
     var keys = Object.keys(this.state.config.intervals)
 
     // //  extract the note range from instrumentSet
-    let range = this.firstAndLastNote();
+    //let range = this.firstAndLastNote();
+
+    let range = [this.state.min, this.state.max]
 
     // // extract octaves
     let octave = Math.floor(Math.random() * this.state.config.octaves) ;
@@ -364,8 +370,20 @@ setPlaying = (value, generate = true) => {
     });
   };
 
+  extractMin(array) {
+    let min = 10000;
+    for (var i = 0; i < array.length; i++) {
+      if (array[i].value<min) {
+        min = parseInt(array[i].value)
+      }
+    }
+    if (array.length == 0 ){ return 7}
+    return min;
+  }
+
+
   render() {
-    //console.log(this.props.song)
+
     return (
       <div className={this.state.showPitch ? "show" : ""}>
       <SoundfontProvider
@@ -419,10 +437,12 @@ setPlaying = (value, generate = true) => {
 
           <div className="col-6">
           <button 
+          disabled={this.state.max - this.state.min < this.extractMin(this.state.config.intervals)}
           style={{ height: '50px ' }}
           className={classNames('btn-block', {
             'btn-success': !this.state.isPlaying,
             'btn-danger': this.state.isPlaying,
+            'btn-warning' : this.state.max - this.state.min < this.extractMin(this.state.config.intervals)
           })}
           onClick={() => {
             if (!this.state.isPlaying) {
@@ -447,9 +467,10 @@ setPlaying = (value, generate = true) => {
         className={classNames('btn-block', {
           'btn-success': !this.state.isPlaying,
           'btn-secondary': this.state.isPlaying,
+           'btn-warning' : this.state.max - this.state.min < this.extractMin(this.state.config.intervals)
         })}
         onClick={() => this.restart()}
-        disabled={this.state.isPlaying}
+        disabled={this.state.isPlaying || this.state.max - this.state.min < this.extractMin(this.state.config.intervals)}
         >
         {'restart'}
         </button>
