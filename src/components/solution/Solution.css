@@ -1,0 +1,24 @@
+.divDisplay {      
+	display : flex ;
+	flex-direction: row;
+	flex-wrap: wrap;
+/*	alignItems: center;
+	justifyContent: center;*/
+}
+
+button {
+	margin: 5px;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.divDisplay button {
+	flex: 0 1 100%;
+}
+
+.divDisplay NoteGuess {
+	flex: 1 0 50%;
+}
+
+
+
