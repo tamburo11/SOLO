@@ -80,10 +80,10 @@ class Solution extends React.Component {
         dist.push((-notes[i]+notes[i+1])%12)
       }
     }
-    console.log(dist)
+    // console.log(dist)
     if (!this.arraysEqual(distances,dist)) {
       distances = dist;
-      console.log(distances);
+      // console.log(distances);
     }    
 
     

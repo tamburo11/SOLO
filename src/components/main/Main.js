@@ -19,7 +19,7 @@ class Main extends React.Component {
   } 
 
   takePlay(play) {
-    console.log("play is " + play)
+    // console.log("play is " + play)
     this.setState({
       play : play
     });

@@ -198,7 +198,7 @@ const instrument_list_r= [
     // // extract octaves
     let octave = Math.floor(Math.random() * this.state.config.octaves) ;
     let octaveJump = octave*12
-    console.log("octaveJump ",octaveJump)
+    // console.log("octaveJump ",octaveJump)
 
 
     // // select a random note between the first and the last
@@ -221,14 +221,14 @@ const instrument_list_r= [
         if (startingNote - randomJump < range[0]) {
           startingNote += randomJump
           if (startingNote + octaveJump < range[1] ){
-            console.log('alzato di ' + octaveJump)
+            // console.log('alzato di ' + octaveJump)
             startingNote += octaveJump
           }
           // console.log("startingNote += randomJump")
         } else {
           startingNote -= randomJump
           if (startingNote - octaveJump > range[0] ){
-            console.log('abbassato di ' + octaveJump)
+            // console.log('abbassato di ' + octaveJump)
             startingNote -= octaveJump
           }
           // console.log("startingNote -= randomJump")
@@ -238,14 +238,14 @@ const instrument_list_r= [
         if (startingNote + randomJump > range[1]) {
           startingNote -= randomJump
           if (startingNote - octaveJump > range[0] ){
-            console.log('abbassato di ' + octaveJump)
+            // console.log('abbassato di ' + octaveJump)
             startingNote -= octaveJump
           }
           // console.log("startingNote -= randomJump")
         } else {
           startingNote += randomJump
           if (startingNote + octaveJump < range[1] ){
-            console.log('alzato di ' + octaveJump)
+            // console.log('alzato di ' + octaveJump)
             startingNote += octaveJump
           }
           // console.log("startingNote += randomJump")
@@ -293,6 +293,12 @@ const instrument_list_r= [
 
 setPlaying = (value, generate = true) => {
   if (value) {
+         let h = document.getElementsByClassName("not-lds-dual-ring")[0]
+            if (h != undefined) {
+              h.className = "lds-dual-ring"
+              //questo va modificato in caso tu voglia aggiunger un testo (in caso aggiungi uno stile al testo)
+              //h.innerHTML = "loading sound source"
+            }
         //clearTimeout(this.state.timeoutID);
         if (generate) {
           this.generateSong();
@@ -432,10 +438,12 @@ setPlaying = (value, generate = true) => {
           duration={this.state.config.duration}
           />
           <br /> 
-
+          <div class="not-lds-dual-ring"></div>
           <div className="form-row">
 
           <div className="col-6">
+         
+
           <button 
           disabled={this.state.max - this.state.min < this.extractMin(this.state.config.intervals)}
           style={{ height: '50px ' }}
@@ -446,7 +454,7 @@ setPlaying = (value, generate = true) => {
           })}
           onClick={() => {
             if (!this.state.isPlaying) {
-              console.log('cambio di stato')
+              //console.log('cambio di stato')
               this.props.setPressedPlay(true);
             } else {
               this.props.setPressedPlay(false);
