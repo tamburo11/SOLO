@@ -199,7 +199,7 @@ class PianoConfig extends React.Component {
     return (
       <div>
 
-      <hr/>
+   
 
       <div className="form-row" >
 
