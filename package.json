@@ -5,6 +5,7 @@
   "homepage": "https://tamburo11.github.io/SOLO/",
   "dependencies": {
     "chroma-js": "^1.4.1",
+    "gh-pages": "^2.0.1",
     "ora": "^3.2.0",
     "prop-types": "^15.6.2",
     "rc-slider": "^8.6.3",
