@@ -293,12 +293,12 @@ const instrument_list_r= [
 
 setPlaying = (value, generate = true) => {
   if (value) {
-         let h = document.getElementsByClassName("not-lds-dual-ring")[0]
-            if (h != undefined) {
-              h.className = "lds-dual-ring"
-              //questo va modificato in caso tu voglia aggiunger un testo (in caso aggiungi uno stile al testo)
-              //h.innerHTML = "loading sound source"
-            }
+         // let h = document.getElementsByClassName("not-lds-dual-ring")[0]
+         //    if (h != undefined) {
+         //      h.className = "lds-dual-ring"
+         //      //questo va modificato in caso tu voglia aggiunger un testo (in caso aggiungi uno stile al testo)
+         //      //h.innerHTML = "loading sound source"
+         //    }
         //clearTimeout(this.state.timeoutID);
         if (generate) {
           this.generateSong();

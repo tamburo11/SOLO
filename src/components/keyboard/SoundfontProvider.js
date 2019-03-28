@@ -69,11 +69,11 @@ class SoundfontProvider extends React.Component {
         return `${this.props.hostname}/${soundfont}/${name}-${format}.js`;
       },
     }).then((instrument) => {
-      let c = document.getElementsByClassName("lds-dual-ring")[0]
-         if (c != undefined) {
-          c.className = "not-lds-dual-ring"
-          c.innerHTML = ""
-        }
+      // let c = document.getElementsByClassName("lds-dual-ring")[0]
+      //    if (c != undefined) {
+      //     c.className = "not-lds-dual-ring"
+      //     c.innerHTML = ""
+      //   }
       this.setState({
         instrument,
       });
