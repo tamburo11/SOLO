@@ -49,8 +49,8 @@ class Main extends React.Component {
             <br/>
               From an idea of composer < a href="http://www.albertobarberis.it/">Alberto Barberis </a> 
               and under the supervision of teachers < a href="http://www.ivoantognini.com/MUSIC_COMPOSER/home.html">Ivo Antognini </a> 
-              and <a href="http://nadirvassena.ch/"> Nadir Vassena</a>, <br/> SOLO is supported by Spazio21 and it is developed by <a href="http://simonemasiero.com/"> Simone Masiero</a> <br/> with < a href="https://www.si.usi.ch/">Software Institute | CodeLounge </a> 
-              and <a href="https://www.usi.ch/it"> Università della Svizzera Italiana</a> (USI). 
+              and <a href="http://nadirvassena.ch/"> Nadir Vassena</a>, <br/> SOLO is supported by Spazio21 and it is developed by <a href="http://simonemasiero.com/"> Simone Masiero</a> <br/> under the supervision of <a href="https://codelounge.si.usi.ch">CodeLounge </a> 
+              and <a href="https://si.usi.ch">Software Institute </a> at the <a href="https://www.usi.ch/it"> Università della Svizzera Italiana</a> (USI). 
             <br/> 
             <br/>
 
