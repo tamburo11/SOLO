@@ -1,7 +1,7 @@
 {
   "main.css": "/SOLO/static/css/main.868dfcc1.chunk.css",
-  "main.js": "/SOLO/static/js/main.3796d8cd.chunk.js",
-  "main.js.map": "/SOLO/static/js/main.3796d8cd.chunk.js.map",
+  "main.js": "/SOLO/static/js/main.cb26d19f.chunk.js",
+  "main.js.map": "/SOLO/static/js/main.cb26d19f.chunk.js.map",
   "static/js/1.0ea71039.chunk.js": "/SOLO/static/js/1.0ea71039.chunk.js",
   "static/js/1.0ea71039.chunk.js.map": "/SOLO/static/js/1.0ea71039.chunk.js.map",
   "runtime~main.js": "/SOLO/static/js/runtime~main.1455d889.js",
@@ -12,6 +12,6 @@
   "static/media/logo_lounge_b.png": "/SOLO/static/media/logo_lounge_b.c8cd3966.png",
   "static/css/main.868dfcc1.chunk.css.map": "/SOLO/static/css/main.868dfcc1.chunk.css.map",
   "index.html": "/SOLO/index.html",
-  "precache-manifest.2aa0cea29062465edca1ca26c1dafdda.js": "/SOLO/precache-manifest.2aa0cea29062465edca1ca26c1dafdda.js",
+  "precache-manifest.3b57e7775e3405a8425352cf8c1485ac.js": "/SOLO/precache-manifest.3b57e7775e3405a8425352cf8c1485ac.js",
   "service-worker.js": "/SOLO/service-worker.js"
 }
