@@ -41,22 +41,23 @@ class Main extends React.Component {
           </div>
           <header className="header">
             <h1 >S O L O
-              <h2>ear training web app</h2>
+              
             </h1>
-            
-            <h3 class="presentationText"> solo is the ear training application of the <a href="http://www.conservatorio.ch/it/scuola-universitaria">Conservatorio della Svizzera Italiana</a>, University of Music (SUPSI). 
+            <h2>ear training web app</h2>
             <br/>
+            <div >
+            <h3 class="presentationText"> solo is the ear training application of the <a href="http://www.conservatorio.ch/it/scuola-universitaria">Conservatorio della Svizzera Italiana</a>, University of Music (SUPSI).
             <br/>
-              From an idea of composer < a href="http://www.albertobarberis.it/">Alberto Barberis </a> 
-              and under the supervision of teachers < a href="http://www.ivoantognini.com/MUSIC_COMPOSER/home.html">Ivo Antognini </a> 
+              From an idea of composer <a a href="http://www.albertobarberis.it/">Alberto Barberis </a> 
+              and under the supervision of teachers <a href="http://www.ivoantognini.com/MUSIC_COMPOSER/home.html">Ivo Antognini </a> 
               and <a href="http://nadirvassena.ch/"> Nadir Vassena</a>, <br/> SOLO is supported by Spazio21 and it is developed by <a href="http://simonemasiero.com/"> Simone Masiero</a> <br/> under the supervision of <a href="https://codelounge.si.usi.ch">CodeLounge </a> 
               and <a href="https://si.usi.ch">Software Institute </a> at the <a href="https://www.usi.ch/it"> Università della Svizzera Italiana</a> (USI). 
-            <br/> 
             <br/>
+             </h3>
+              <h3 class="presentationText"> This is the first version and the project is still in development </h3> 
+            </div>
 
-              <h4> This is the first version and the project is still in development </h4> 
-
-              </h3>
+              
           </header>
           <div className="loghiUni">
             <img className="logoUni" src={require('./../../logo_SUPSI_60mm_ITA.png')} />
