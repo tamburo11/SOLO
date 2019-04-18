@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/SOLO/static/js/runtime~main.1455d889.js"
   },
   {
-    "revision": "7c09e640deced0c29d10",
-    "url": "/SOLO/static/js/main.7c09e640.chunk.js"
+    "revision": "4c21a6d881519e95bc6f",
+    "url": "/SOLO/static/js/main.4c21a6d8.chunk.js"
   },
   {
     "revision": "0ea71039da15a8648f38",
     "url": "/SOLO/static/js/1.0ea71039.chunk.js"
   },
   {
-    "revision": "7c09e640deced0c29d10",
-    "url": "/SOLO/static/css/main.3b896768.chunk.css"
+    "revision": "4c21a6d881519e95bc6f",
+    "url": "/SOLO/static/css/main.1bad7742.chunk.css"
   },
   {
-    "revision": "8828a06d761bcc490c072ec1eada5454",
+    "revision": "9d2b3b25b91a245ec766e94541eb379c",
     "url": "/SOLO/index.html"
   }
 ];

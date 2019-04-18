@@ -1,7 +1,7 @@
 {
-  "main.css": "/SOLO/static/css/main.3b896768.chunk.css",
-  "main.js": "/SOLO/static/js/main.7c09e640.chunk.js",
-  "main.js.map": "/SOLO/static/js/main.7c09e640.chunk.js.map",
+  "main.css": "/SOLO/static/css/main.1bad7742.chunk.css",
+  "main.js": "/SOLO/static/js/main.4c21a6d8.chunk.js",
+  "main.js.map": "/SOLO/static/js/main.4c21a6d8.chunk.js.map",
   "static/js/1.0ea71039.chunk.js": "/SOLO/static/js/1.0ea71039.chunk.js",
   "static/js/1.0ea71039.chunk.js.map": "/SOLO/static/js/1.0ea71039.chunk.js.map",
   "runtime~main.js": "/SOLO/static/js/runtime~main.1455d889.js",
@@ -10,8 +10,8 @@
   "static/media/logo_SUPSI_60mm_ITA.png": "/SOLO/static/media/logo_SUPSI_60mm_ITA.e9eea8a8.png",
   "static/media/press-usi-logo.png": "/SOLO/static/media/press-usi-logo.e4914906.png",
   "static/media/logo_lounge_b.png": "/SOLO/static/media/logo_lounge_b.c8cd3966.png",
-  "static/css/main.3b896768.chunk.css.map": "/SOLO/static/css/main.3b896768.chunk.css.map",
+  "static/css/main.1bad7742.chunk.css.map": "/SOLO/static/css/main.1bad7742.chunk.css.map",
   "index.html": "/SOLO/index.html",
-  "precache-manifest.8c6bb3eba031617ddf5628d393bc68cb.js": "/SOLO/precache-manifest.8c6bb3eba031617ddf5628d393bc68cb.js",
+  "precache-manifest.3625cdd2d50280023ed8700bcca7eeba.js": "/SOLO/precache-manifest.3625cdd2d50280023ed8700bcca7eeba.js",
   "service-worker.js": "/SOLO/service-worker.js"
 }
