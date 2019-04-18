@@ -1,9 +1,5 @@
 self.__precacheManifest = [
   {
-    "revision": "e4914906a1db11aa5456860b14f16b85",
-    "url": "/SOLO/static/media/press-usi-logo.e4914906.png"
-  },
-  {
     "revision": "c8cd396681f0465f7a6d19847b30d863",
     "url": "/SOLO/static/media/logo_lounge_b.c8cd3966.png"
   },
@@ -20,19 +16,19 @@ self.__precacheManifest = [
     "url": "/SOLO/static/js/runtime~main.1455d889.js"
   },
   {
-    "revision": "7c09e640deced0c29d10",
-    "url": "/SOLO/static/js/main.7c09e640.chunk.js"
+    "revision": "9e2b7e4e7eb95149edde",
+    "url": "/SOLO/static/js/main.9e2b7e4e.chunk.js"
   },
   {
     "revision": "0ea71039da15a8648f38",
     "url": "/SOLO/static/js/1.0ea71039.chunk.js"
   },
   {
-    "revision": "7c09e640deced0c29d10",
-    "url": "/SOLO/static/css/main.3b896768.chunk.css"
+    "revision": "9e2b7e4e7eb95149edde",
+    "url": "/SOLO/static/css/main.1bad7742.chunk.css"
   },
   {
-    "revision": "8828a06d761bcc490c072ec1eada5454",
+    "revision": "7c0f042cf52d87f6ac6c3f4b1288f062",
     "url": "/SOLO/index.html"
   }
 ];

@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://masies.github.io/SOLO",
+  "homepage": "https://tamburo11.github.io/SOLO",
   "dependencies": {
     "chroma-js": "^1.4.1",
     "gh-pages": "^2.0.1",

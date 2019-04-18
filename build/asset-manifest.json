@@ -1,17 +1,16 @@
 {
-  "main.css": "/SOLO/static/css/main.3b896768.chunk.css",
-  "main.js": "/SOLO/static/js/main.7c09e640.chunk.js",
-  "main.js.map": "/SOLO/static/js/main.7c09e640.chunk.js.map",
+  "main.css": "/SOLO/static/css/main.1bad7742.chunk.css",
+  "main.js": "/SOLO/static/js/main.9e2b7e4e.chunk.js",
+  "main.js.map": "/SOLO/static/js/main.9e2b7e4e.chunk.js.map",
   "static/js/1.0ea71039.chunk.js": "/SOLO/static/js/1.0ea71039.chunk.js",
   "static/js/1.0ea71039.chunk.js.map": "/SOLO/static/js/1.0ea71039.chunk.js.map",
   "runtime~main.js": "/SOLO/static/js/runtime~main.1455d889.js",
   "runtime~main.js.map": "/SOLO/static/js/runtime~main.1455d889.js.map",
+  "static/css/main.1bad7742.chunk.css.map": "/SOLO/static/css/main.1bad7742.chunk.css.map",
   "static/media/logo_conservatorio.png": "/SOLO/static/media/logo_conservatorio.3c8194b2.png",
   "static/media/logo_SUPSI_60mm_ITA.png": "/SOLO/static/media/logo_SUPSI_60mm_ITA.e9eea8a8.png",
-  "static/media/press-usi-logo.png": "/SOLO/static/media/press-usi-logo.e4914906.png",
   "static/media/logo_lounge_b.png": "/SOLO/static/media/logo_lounge_b.c8cd3966.png",
-  "static/css/main.3b896768.chunk.css.map": "/SOLO/static/css/main.3b896768.chunk.css.map",
   "index.html": "/SOLO/index.html",
-  "precache-manifest.8c6bb3eba031617ddf5628d393bc68cb.js": "/SOLO/precache-manifest.8c6bb3eba031617ddf5628d393bc68cb.js",
+  "precache-manifest.135f1a06639b5471a5a01045ed656932.js": "/SOLO/precache-manifest.135f1a06639b5471a5a01045ed656932.js",
   "service-worker.js": "/SOLO/service-worker.js"
 }
