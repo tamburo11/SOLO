@@ -69,6 +69,7 @@ h4 {
 }
 
 .loghi{
+
   display: flex;
   margin: 10px;
   padding: 10px;
@@ -77,14 +78,15 @@ h4 {
 }
 
 .logo{
+  width: 300px;
   margin: 5px;
   padding: 5px;
   align-self: auto;
-  width: 25%;
-  height: 25%;
 }
 
+
 .loghiUni{
+
   margin: 10px;
   padding: 10px;
   flex-flow: row;
