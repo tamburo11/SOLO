@@ -36,8 +36,8 @@ class Main extends React.Component {
       <div>
         <section className="presentation">
           <div className="loghi">
-            <img className="logo" src={require('./../../img/logo_conservatorio_supsi.png')} />
-            <img className="logo" src={require('./../../img/logo_software_institute.png')} />
+            <img className="logo" href="https://www.conservatorio.ch/it" src={require('./../../img/logo_conservatorio_supsi.png')} />
+            <img className="logo" href="https://www.si.usi.ch/" src={require('./../../img/logo_software_institute.png')} />
           </div>
           <header className="header">
             <h1 >S O L O</h1>
