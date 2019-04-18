@@ -1,7 +1,7 @@
 {
   "main.css": "/SOLO/static/css/main.5fd3e27a.chunk.css",
-  "main.js": "/SOLO/static/js/main.6afd7f8c.chunk.js",
-  "main.js.map": "/SOLO/static/js/main.6afd7f8c.chunk.js.map",
+  "main.js": "/SOLO/static/js/main.6ecc6fe8.chunk.js",
+  "main.js.map": "/SOLO/static/js/main.6ecc6fe8.chunk.js.map",
   "static/js/1.0ea71039.chunk.js": "/SOLO/static/js/1.0ea71039.chunk.js",
   "static/js/1.0ea71039.chunk.js.map": "/SOLO/static/js/1.0ea71039.chunk.js.map",
   "runtime~main.js": "/SOLO/static/js/runtime~main.1455d889.js",
@@ -9,6 +9,6 @@
   "static/media/logo_conservatorio_supsi.png": "/SOLO/static/media/logo_conservatorio_supsi.853937a7.png",
   "static/css/main.5fd3e27a.chunk.css.map": "/SOLO/static/css/main.5fd3e27a.chunk.css.map",
   "index.html": "/SOLO/index.html",
-  "precache-manifest.c034030fc3b8888fd290f7d95d9463cc.js": "/SOLO/precache-manifest.c034030fc3b8888fd290f7d95d9463cc.js",
+  "precache-manifest.7e1257bfb28960cc58dd2269e52cc8e2.js": "/SOLO/precache-manifest.7e1257bfb28960cc58dd2269e52cc8e2.js",
   "service-worker.js": "/SOLO/service-worker.js"
 }
