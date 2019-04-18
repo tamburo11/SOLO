@@ -31,6 +31,10 @@ body {
   font-size: 70px;
 }
 
+.header h2 {
+  padding-bottom: 2em;
+}
+
 .soloFrame{
   background-color: white;
 }
@@ -54,8 +58,14 @@ h4 {
 }
 
 .presentationText {
-  font-size: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
 
+.presentationText p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5rem;
 }
 
 .loghi{
@@ -70,8 +80,8 @@ h4 {
   margin: 5px;
   padding: 5px;
   align-self: auto;
-  width: 30%;
-  height: 30%;
+  width: 25%;
+  height: 25%;
 }
 
 .loghiUni{
@@ -105,4 +115,9 @@ select.form-control:not([size]):not([multiple]) {
 
 .grid .item:nth-child(2) {
   background-color: rgb(216, 221, 232);
+}
+
+.smallText {
+  font-size: 0.7rem;
+  padding-top: 2rem !important;
 }

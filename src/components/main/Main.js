@@ -36,33 +36,26 @@ class Main extends React.Component {
       <div>
         <section className="presentation">
           <div className="loghi">
-            <img className="logo" src={require('./../../logo_conservatorio.png')} />
-            <img className="logo" src={require('./../../logo_lounge_b.png')} />
+            <img className="logo" src={require('./../../img/logo_conservatorio_supsi.png')} />
+            <img className="logo" src={require('./../../img/logo_software_institute.png')} />
           </div>
           <header className="header">
-            <h1 >S O L O
-              
-            </h1>
+            <h1 >S O L O</h1>
             <h2>ear training web app</h2>
-            <br/>
-            <div >
-            <h3 class="presentationText"> solo is the ear training application of the <a href="http://www.conservatorio.ch/it/scuola-universitaria">Conservatorio della Svizzera Italiana</a>, University of Music (SUPSI).
-            <br/>
-              From an idea of composer <a a href="http://www.albertobarberis.it/">Alberto Barberis </a> 
-              and under the supervision of teachers <a href="http://www.ivoantognini.com/MUSIC_COMPOSER/home.html">Ivo Antognini </a> 
-              and <a href="http://nadirvassena.ch/"> Nadir Vassena</a>, <br/> SOLO is supported by Spazio21 and it is developed by <a href="http://simonemasiero.com/"> Simone Masiero</a> <br/> under the supervision of <a href="https://codelounge.si.usi.ch">CodeLounge </a> 
-              and <a href="https://si.usi.ch">Software Institute </a> at the <a href="https://www.usi.ch/it"> Università della Svizzera Italiana</a> (USI). 
-            <br/>
-             </h3>
-              <h3 class="presentationText"> This is the first version and the project is still in development </h3> 
+            
+            <div class="presentationText">
+            
+              <p>solo is the ear training application of the <a target="_blank" href="http://www.conservatorio.ch/it/scuola-universitaria">Conservatorio della Svizzera italiana</a>, University of Music (SUPSI).</p>
+
+              <p>From an idea of composer <a a target="_blank" href="http://www.albertobarberis.it/">Alberto Barberis</a> and under the supervision of teachers <a target="_blank" href="http://www.ivoantognini.com/MUSIC_COMPOSER/home.html">Ivo Antognini</a> and <a target="_blank" href="http://nadirvassena.ch/">Nadir Vassena</a>.</p>
+            
+              <p>SOLO is supported by Spazio21 and it was initially developed by <a target="_blank" href="http://simonemasiero.com/">Simone Masiero</a> under the supervision of <a target="_blank" href="https://robertominelli.com">Roberto Minelli</a> in collaboration with <a target="_blank" href="https://codelounge.si.usi.ch">CodeLounge</a> and the <a target="_blank" href="https://si.usi.ch">Software Institute</a> (<a target="_blank" href="https://www.usi.ch/it">USI</a>).</p> 
+            
+              <p class="smallText">The project is still under development.</p>
             </div>
 
               
           </header>
-          <div className="loghiUni">
-            <img className="logoUni" src={require('./../../logo_SUPSI_60mm_ITA.png')} />
-            <img className="logoUni" src={require('./../../press-usi-logo.png')} style={{padding: "30px"}} />
-          </div>
         </section>
 
         <section className="app">

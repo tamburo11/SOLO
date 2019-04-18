@@ -16,7 +16,7 @@
     "react-dom": "^16.6.3",
     "react-native": "^0.57.7",
     "react-piano": "^3.1.2",
-    "react-scripts": "2.0.4",
+    "react-scripts": "^2.0.4",
     "react-select": "^2.1.2",
     "soundfont-player": "^0.10.7"
   },
