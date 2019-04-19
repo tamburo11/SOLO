@@ -36,13 +36,13 @@ class Main extends React.Component {
       <div>
         <section className="presentation">
           <div className="loghi">
-            <a href="https://www.conservatorio.ch/it" >
+            <a href="https://www.conservatorio.ch/it" target="_blank">
             <img className="logo"  src={require('./../../img/logo_conservatorio_supsi.png')} /></a>
-            <a href="https://www.si.usi.ch/">
+            <a className="logoUSI" href="https://www.si.usi.ch/" target="_blank">
             <img className="logo"  src={require('./../../img/logo_software_institute.png')} /></a>
           </div>
           <header className="header">
-            <h1 >S O L O</h1>
+            <h1>S O L O</h1>
             <h2>ear training web app</h2>
             
             <div class="presentationText">

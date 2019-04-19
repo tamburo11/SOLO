@@ -88,18 +88,18 @@
  * Styles of "active" or pressed-down keys
  */
 .show .ReactPiano__Key--active {
-  background: #3ac8da;
+  background: rgb(66, 134, 244);
 }
 
 .show .ReactPiano__Key--active.ReactPiano__Key--accidental {
   border: 1px solid #fff;
-  border-top: 1px solid #3ac8da;
+  border-top: 1px solid rgb(66, 134, 244);
   /* Slight height reduction for "pushed-down" effect */
   height: 65%;
 }
 
 .show .ReactPiano__Key--active.ReactPiano__Key--natural {
-  border: 1px solid #3ac8da;
+  border: 1px solid rgb(66, 134, 244);
   /* Slight height reduction for "pushed-down" effect */
   height: 98%;
 }
@@ -112,13 +112,13 @@
 }
 
 .show .ReactPiano__Key--disabled.ReactPiano__Key--accidental {
-  background: #ddd;
-  border: 1px solid #999;
+  background: #555;
+  /* border: 1px solid #999; */
 }
 
 .show .ReactPiano__Key--disabled.ReactPiano__Key--natural {
-  background: #eee;
-  border: 1px solid #aaa;
+  background: #f6f5f3;
+  border: 1px solid rgb(187, 187, 187);
 }
 
 /*

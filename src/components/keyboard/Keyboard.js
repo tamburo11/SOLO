@@ -316,7 +316,7 @@ setPlaying = (value, generate = true) => {
                   lables[i].style.border = "thick solid #FFFFFF";
                 }
                 if (index < this.state.numberOfNotes+1 && index > 0){
-                  lables[index -1 ].style.border = "thick solid #3877e1";
+                  lables[index -1 ].style.border = "thick solid rgb(66, 134, 244)";
                 }
 
                 if (index < this.props.song.length) {
@@ -437,7 +437,7 @@ setPlaying = (value, generate = true) => {
           activeNotesIndex={this.state.activeNotesIndex}
           duration={this.state.config.duration}
           />
-          <br /> 
+          {/* <br />  */}
           <div class="not-lds-dual-ring"></div>
           <div className="form-row">
 
