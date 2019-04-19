@@ -1,14 +1,14 @@
 {
-  "main.css": "/SOLO/static/css/main.6eed200b.chunk.css",
-  "main.js": "/SOLO/static/js/main.759f7cd4.chunk.js",
-  "main.js.map": "/SOLO/static/js/main.759f7cd4.chunk.js.map",
-  "static/js/1.0ea71039.chunk.js": "/SOLO/static/js/1.0ea71039.chunk.js",
-  "static/js/1.0ea71039.chunk.js.map": "/SOLO/static/js/1.0ea71039.chunk.js.map",
+  "main.css": "/SOLO/static/css/main.0a486821.chunk.css",
+  "main.js": "/SOLO/static/js/main.5c7b13a6.chunk.js",
+  "main.js.map": "/SOLO/static/js/main.5c7b13a6.chunk.js.map",
+  "static/js/1.a9b400e8.chunk.js": "/SOLO/static/js/1.a9b400e8.chunk.js",
+  "static/js/1.a9b400e8.chunk.js.map": "/SOLO/static/js/1.a9b400e8.chunk.js.map",
   "runtime~main.js": "/SOLO/static/js/runtime~main.1455d889.js",
   "runtime~main.js.map": "/SOLO/static/js/runtime~main.1455d889.js.map",
-  "static/media/logo_conservatorio_supsi.png": "/SOLO/static/media/logo_conservatorio_supsi.853937a7.png",
-  "static/css/main.6eed200b.chunk.css.map": "/SOLO/static/css/main.6eed200b.chunk.css.map",
+  "static/media/logo_conservatorio_supsi.png": "/SOLO/static/media/logo_conservatorio_supsi.863722ce.png",
+  "static/css/main.0a486821.chunk.css.map": "/SOLO/static/css/main.0a486821.chunk.css.map",
   "index.html": "/SOLO/index.html",
-  "precache-manifest.bef9f467e3489d3117313c3ebe24625f.js": "/SOLO/precache-manifest.bef9f467e3489d3117313c3ebe24625f.js",
+  "precache-manifest.7b6cb25c34d1fe132df89f5d194028ce.js": "/SOLO/precache-manifest.7b6cb25c34d1fe132df89f5d194028ce.js",
   "service-worker.js": "/SOLO/service-worker.js"
 }
