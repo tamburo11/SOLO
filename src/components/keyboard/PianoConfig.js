@@ -239,7 +239,7 @@ class PianoConfig extends React.Component {
 
 {/* Duration */}
 <div className="col-3">
-<Label>set pitch duration units</Label>
+<Label>set pitch duration unit</Label>
 <AutoblurSelect className="form-control" onChange={this.onChangeDuration} value={duration}>
 {
   [1,2,3,4,5].map((i,j) => {
@@ -253,7 +253,7 @@ class PianoConfig extends React.Component {
 
 {/*Time between two notes*/}
 <div className="col-3">
-<Label>set pause duration units</Label>
+<Label>set pause duration unit</Label>
 <AutoblurSelect
 className="form-control" 
 onChange={this.onChangePauseTime} 
@@ -284,7 +284,7 @@ value={pauseTime}>
 onChange={this.intervalsChanged}
 closeMenuOnSelect={false}
 components={makeAnimated()}
-defaultValue={intervals[5]}
+defaultValue={intervals[7]}
 isMulti
 name="InstrumentSet"
 options={intervals}
@@ -337,12 +337,21 @@ classNamePrefix="select"
 <div className="form-row" id="myCheckBox">
 <div className="col-6">
 <input type="checkbox" onChange={this.showPitch} />
-<Label>{' '} show pitches on the keyboard {' '}</Label>
+<Label>{' '} show pitch played on the keyboard {' '}</Label>
 </div>
+
 <div className="col-6">
+
+{/*
+
+to be fixed: show the instrument played. 
+Now it is showing the next instrument and not the current one
+
 <input type="checkbox" onChange={this.showInstrument} />
 <Label>{' '} show instrument played {' '}</Label>
 { this.state.showInstrument ? <Label>{this.props.instrumentName}</Label> :  null}
+*/}
+
 </div>
 </div>
 </div>

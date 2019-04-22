@@ -51,7 +51,8 @@ class Main extends React.Component {
 
               <p>From an idea of composer <a a target="_blank" href="http://www.albertobarberis.it/">Alberto Barberis</a> and under the supervision of teachers <a target="_blank" href="http://www.ivoantognini.com/MUSIC_COMPOSER/home.html">Ivo Antognini</a> and <a target="_blank" href="http://nadirvassena.ch/">Nadir Vassena</a>.</p>
             
-              <p>SOLO is supported by Spazio21 and it was initially developed by <a target="_blank" href="http://simonemasiero.com/">Simone Masiero</a> under the supervision of <a target="_blank" href="https://robertominelli.com">Roberto Minelli</a> in collaboration with <a target="_blank" href="https://codelounge.si.usi.ch">CodeLounge</a> and the <a target="_blank" href="https://si.usi.ch">Software Institute</a> (<a target="_blank" href="https://www.usi.ch/it">USI</a>).</p> 
+              <p>SOLO is supported by Spazio21 and it was initially developed by <a target="_blank" href="http://simonemasiero.com/">Simone Masiero</a> under the supervision of <a target="_blank" href="https://robertominelli.com">Roberto Minelli</a> and Alberto Barberis.</p> 
+              <p>In collaboration with <a target="_blank" href="https://codelounge.si.usi.ch">CodeLounge</a> and the <a target="_blank" href="https://si.usi.ch">Software Institute</a> (<a target="_blank" href="https://www.usi.ch/it">USI</a>).</p> 
             
               <p class="smallText">The project is still under development.</p>
             </div>
