@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6f7b0cf70dfa69241c40",
-    "url": "/SOLO/static/css/main.6ac9ad43.chunk.css"
+    "revision": "a982916e4eb4e4ada0ad",
+    "url": "/SOLO/static/css/main.08654e64.chunk.css"
   },
   {
-    "revision": "6f7b0cf70dfa69241c40",
-    "url": "/SOLO/static/js/main.6f7b0cf7.chunk.js"
+    "revision": "a982916e4eb4e4ada0ad",
+    "url": "/SOLO/static/js/main.a982916e.chunk.js"
   },
   {
     "revision": "a9b400e835a0ae8f5e09",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/SOLO/static/media/logo_conservatorio_supsi.863722ce.png"
   },
   {
-    "revision": "ad3b8751c2194e406a65a34c384ef09f",
+    "revision": "902978b27a5324bf170a6fc73c4d2d57",
     "url": "/SOLO/index.html"
   }
 ];
